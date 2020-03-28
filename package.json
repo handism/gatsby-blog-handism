@@ -35,6 +35,7 @@
   },
   "devDependencies": {
     "bulma": "^0.8.0",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1"
   },
@@ -44,5 +45,8 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "scripts": {
+    "deploy": "gatsby build && gh-pages -d public -b master"
   }
 }

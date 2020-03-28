@@ -9,6 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `sample blog`,
   },
+  pathPrefix: "/gatsby-blog-handism",
   plugins: [
     {
       resolve: `gatsby-plugin-typography`,

@@ -73,7 +73,7 @@ export default ({ data, pageContext }) => {
             </div>
             <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-            <div class="share">
+            {/* <div class="share">
               <span class="share-icon">
                 <EmailShareButton url={window.location.href}>
                   <EmailIcon size={50} round />
@@ -109,7 +109,7 @@ export default ({ data, pageContext }) => {
                   <PinterestIcon size={50} round />
                 </PinterestShareButton>
               </span>
-            </div>
+            </div> */}
 
             <div class="pagination">
               {pageContext.prev && (
